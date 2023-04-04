@@ -1,0 +1,41 @@
+[
+	{	"op": "add", 		
+		"path": "/attributes/quantitySlots/diamond", 
+		"file": "bettercrates:blocktypes/bettercrates.json",
+		"value": "2048",
+		"dependsOn": [ { "modid": "bettercrates" } ]
+	},
+	{	"op": "add", 		
+		"path": "/variantgroups/0/states/-", 
+		"file": "bettercrates:blocktypes/bettercrates.json",
+		"value": "diamond",
+		"dependsOn": [ { "modid": "bettercrates" } ]
+	},
+	{	"op": "add", 		
+		"path": "/texturesByType/*diamond*", 
+		"file": "bettercrates:blocktypes/bettercrates.json",
+		"value": {
+		  "all": { "base": "bettercrates:block/crate/diamond/crate" },
+		  "south": { "base": "bettercrates:block/crate/diamond/cratelabel" }			
+		},
+		"dependsOn": [ { "modid": "bettercrates" } ]
+	},
+	{	"op": "add", 		
+		"path": "/resistanceByType/*diamond*", 
+		"file": "bettercrates:blocktypes/bettercrates.json",
+		"value": "10",
+		"dependsOn": [ { "modid": "bettercrates" } ]
+	},	
+	{	"op": "add", 		
+		"path": "/attributes/requiredTier/diamond", 		
+		"value": "steel",
+		"file": "bettercrates:itemtypes/upgrades.json",
+		"dependsOn": [ { "modid": "bettercrates" } ]
+	},		
+	{	"op": "add", 		
+		"path": "/variantgroups/0/states/-", 
+		"file": "bettercrates:itemtypes/upgrades.json",
+		"value": "diamond",
+		"dependsOn": [ { "modid": "bettercrates" } ]
+	}
+]

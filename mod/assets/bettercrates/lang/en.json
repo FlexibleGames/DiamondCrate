@@ -1,0 +1,10 @@
+{
+  "block-bettercrate-diamond*": "Better Crate (Diamond)",
+  "blockdesc-bettercrate-diamond*": "Can hold up to 2048 stacks of the same item type.\r\nCannot hold perishable or hot items.",
+  "block-handbooktext-*bettercrate-diamond*": "<strong>Upgraded from</strong>\r\n<a href='handbook://block-bettercrates:bettercrate-steel-center-east'>Better Crate (Steel)</a> by using a <a href='handbook://item-bettercrates:upgrade-diamond*'>Better Crate Upgrade (Diamond)</a>.\r\n\r\n<strong>How to use</strong> \r\n<strong>Left mouse click:</strong> Take out a single item.\r\n<strong>Sneak + Left mouse click:</strong> Take out a stack of item.\r\n<strong>Right mouse click:</strong> Put in a new or matching stack.\r\n<strong>Hold Right mouse:</strong> Put in all matching stacks from player's inventory.\r\n<strong>Sprint + Right mouse click + bare hand:</strong> Lock/unlock item type.",
+  
+  "item-upgrade-diamond": "Better Crate Upgrade (Diamond)",
+  "itemdesc-upgrade-diamond": "Upgrades a Better Crate (Steel) to Better Crate (Diamond).",
+  "item-handbooktext-*upgrade-diamond*": "<strong>Uses</strong>\r\nUpgrades a <a href='handbook://block-bettercrates:bettercrate-steel-center-east'>Better Crate (Steel)</a> to <a href='handbook://block-bettercrates:bettercrate-diamond-center-east'>Better Crate (Diamond)</a>.\r\n\r\n<strong>How to use</strong>\r\n<strong>Sneak + Right mouse click</strong> on <a href='handbook://block-bettercrates:bettercrate-steel-center-east'>Better Crate (Steel)</a>.",
+  
+}
