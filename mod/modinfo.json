@@ -6,7 +6,7 @@
   "description": "Adds a Diamond Crate to the Better Crates Mod.",
   "website": "https://www.youtube.com/c/FlexibleGames",
   "side": "Universal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": { 
 	"bettercrates": "1.4.2"
   }
